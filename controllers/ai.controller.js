@@ -18,7 +18,7 @@
 import {
   askInjectiveAssistant,
   streamInjectiveAssistant,
-} from "../services/gemini.service.js";
+} from "../services/Gemini.service.js";
 import ChatSession from "../models/chatSession.model.js";
 
 const MAX_HISTORY_TURNS = 12; // keep last N turns to control token usage
