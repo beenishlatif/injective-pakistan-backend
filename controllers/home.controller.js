@@ -29,7 +29,7 @@
  */
 
 import axios from "axios";
-import StatsSnapshot from "../models/StatsSnapshot.model.js";
+import StatsSnapshot from "../models/Statssnapshot.model.js";
 import EcosystemProject from "../models/Ecosystem.model.js";
 import {
   getStakedInj,
